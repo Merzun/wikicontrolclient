@@ -1,5 +1,4 @@
 
-
 local WikiControlClient = Instance.new("ScreenGui")
 local COMBAT = Instance.new("TextButton")
 local LIST = Instance.new("Frame")
@@ -789,6 +788,7 @@ local function PLHQ_fake_script() -- WikiControlClient.Control
 			sound.Volume = 3
 			sound:Play()
 			game.Players.LocalPlayer:Kick("Alert by WikiControlClient! You have just been kicked to save your precious account being banned. The staff that has joined to ban you is called: "..v.Name)
+			break
 		end
 	end
 end
